@@ -4,37 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-
-    <nav id="page-navbar">
-        <a href="index.html">Header Logo</a>
-        <ul>
-            <li><a>header link one</a></li>
-            <li><a>header link two</a></li>
-            <li><a>header link three</a></li>
-        </ul>
-    </nav>
-
     <header id="page-header">
-
-        <h1 class="title-text">This website is awesome</h1>
-        <p class="title-subtext">This website has some subtext that goes here under the main title. It's a smaller font 
-            and the color is lower contrast.</p>
-        <button>Sign up</button>
-        <img src="" alt="this is a placeholder for an image">
+        <nav id="header-navbar">
+            <a class="header-logo" href="index.html">Header Logo</a>
+            <ul class="navbar-list">
+                <li class="navbar-list-item"><a class="navbar-link">header link one</a></li>
+                <li class="navbar-list-item"><a class="navbar-link">header link two</a></li>
+                <li class="navbar-list-item"><a class="navbar-link">header link three</a></li>
+            </ul>
+        </nav>
+        <div id="header-banner">
+            <div>
+                <h1 class="title-text">This website is awesome</h1>
+                <p class="title-subtext"><strong></strong>This website has some subtext that goes here under the main title. It's a 
+                    smaller font and the color is lower contrast.</p>
+                <button>Sign up</button>
+            </div>
+            <img src="" alt="this is a placeholder for an image">
+        </div>
     </header>
 
     <main id="page-main">
 
-        <section id="section-random-information">
+        <section id="section-information">
             <h2>Some random information.</h2>
             <ul>
                 <li>
                     <figure>
                         <img src="" alt="this is a placeholder for an image">
-                        <figcaption>this is some subtext under an illustration or image</figcaption>
+                        <figcaption>this is some <strong>subtext</strong> under an illustration or image</figcaption>
                     </figure>
                 </li>
                 <li>
@@ -58,7 +62,7 @@
             </ul>
         </section>
 
-        <section id="section-inspiring-quote">
+        <section id="section-quote">
             <figure>
                 <blockquote>
                     This is an inspiring quote, or a testimonial from a customer. 

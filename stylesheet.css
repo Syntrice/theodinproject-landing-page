@@ -1,0 +1,50 @@
+body {
+
+    /* Style */
+    font-family: Roboto, Arial, sans-serif;
+
+    /* Layout */
+    margin: 0;
+}
+
+
+
+/* Header */
+
+#page-header {
+
+    /* Style */
+    background: #1F2937;
+    color: #F9FAF8;
+}
+
+#header-navbar a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#section-information {
+
+    /* Style */
+    background: #ffffff;
+    color: #1F2937;
+}
+
+#section-quote {
+
+    /* Style */
+    background: #E5E7EB;
+    color: #1F2937;
+}
+
+#section-sign-up {
+
+    /* Style */
+    background-color: #3882F6;
+    color: #ffffff;
+}
+
+#page-footer {
+    background-color: #1F2937;
+    color: #ffffff;
+}
