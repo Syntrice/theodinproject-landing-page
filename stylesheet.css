@@ -10,6 +10,18 @@ body {
     margin: 0;
 }
 
+button {
+    /* Style */
+    background: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+
+    /* Layout */
+    padding: 7px 23px;
+
+}
+
 /* --- Header ---  */
 /* --------------- */
 
@@ -206,7 +218,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 100px;
+    padding: 40px 80px;
 
     /* Style */
     background: #3882F6;
@@ -217,6 +229,7 @@ body {
 .banner-box > .banner-text {
     /* Layout */
     flex: 6;
+    margin: 0 20px;
 }
 
 .banner-text > * {
@@ -231,6 +244,12 @@ body {
     align-items: center;
     justify-content: right;
     text-wrap: nowrap;
+    
+    margin: 0 20px;
+}
+
+.banner-button > button {
+    border: solid #F9FAF8 1px
 }
 
 /* ---  Footer   --- */
