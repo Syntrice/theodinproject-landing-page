@@ -149,9 +149,36 @@ body {
 
 #section-quote {
 
+    /* Layout */
+    padding: 80px 200px;
+
     /* Style */
     background: #E5E7EB;
     color: #1F2937;
+}
+
+.quote-figure {
+    /* Layout */
+    margin: 0;
+    padding: 0;
+}
+
+.quote-figure > blockquote {
+    /* Layout */
+    margin: 0;
+    text-align: left;
+    
+    /* Style */
+    font-style: italic;
+    font-weight: lighter; 
+}
+
+.quote-figure > figcaption {
+    /* Layout */
+    text-align: right;
+    
+    /* Style */
+    font-weight: 900;
 }
 
 #section-sign-up {
