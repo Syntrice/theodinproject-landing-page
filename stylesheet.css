@@ -1,3 +1,6 @@
+/* --- Global --- */
+/* -------------- */
+
 body {
 
     /* Style */
@@ -14,7 +17,6 @@ body {
 
     /* Layout */
     padding: 0 75px 75px 75px;
-    
 
     /* Style */
     background: #1F2937;
@@ -109,7 +111,6 @@ body {
 
     /* Layout */
     text-align: center;
-    height: 350px;
 
     /* Style */
     background: #ffffff;
@@ -122,6 +123,7 @@ body {
 }
 
 .gallery-list {
+    padding: 0;
     display: flex;
     list-style: none;
     align-items: center;
@@ -144,8 +146,11 @@ body {
     
     /* Style */
     border: solid #3882F6;
-    border-radius: 10%;
+    border-radius: 10px;
 }
+
+/* ---  Quote  --- */
+/* --------------- */
 
 #section-quote {
 
@@ -181,14 +186,64 @@ body {
     font-weight: 900;
 }
 
-#section-sign-up {
+/* ---  Sign up  --- */
+/* ----------------- */
 
-    /* Style */
-    background-color: #3882F6;
-    color: #ffffff;
+#section-sign-up {
+    /* Layout */
+    display: flex;
 }
 
-#page-footer {
-    background-color: #1F2937;
+#section-sign-up > * {
+    /* Layout */
+    margin: 70px 150px;
+}
+
+.banner-box {
+
+    /* Layout */
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+
+    /* Style */
+    background: #3882F6;
     color: #ffffff;
+    border-radius: 10px;
+}
+
+.banner-box > .banner-text {
+    /* Layout */
+    flex: 6;
+}
+
+.banner-text > * {
+    /* Layout */
+    margin: 0;
+}
+
+.banner-box > .banner-button {
+    /* Layout */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-wrap: nowrap;
+}
+
+/* ---  Footer   --- */
+/* ----------------- */
+
+#page-footer {
+    /* Style */
+    background: #1F2937;
+    color: #ffffff;
+    height: 80px;
+    
+    /* Layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
