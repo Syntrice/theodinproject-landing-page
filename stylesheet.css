@@ -1,13 +1,14 @@
-/* --- Global --- */
-/* -------------- */
+/**--------------------------------------------
+ *               Style Rules
+ *---------------------------------------------**/
 
 body {
-
-    /* Style */
     font-family: Roboto, Arial, sans-serif;
+}
 
-    /* Layout */
-    margin: 0;
+body {
+    color: #1F2937;
+    background: #ffffff;
 }
 
 button {
@@ -16,26 +17,109 @@ button {
     color: #F9FAF8;
     border: none;
     border-radius: 5px;
-
-    /* Layout */
-    padding: 7px 23px;
-
 }
 
-/* --- Header ---  */
-/* --------------- */
+#page-header {
+    background: #1F2937;
+    color: #F9FAF8;
+}
+
+.title-text {
+    /* Style */
+    font-size: 48px; 
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.title-subtext,
+.navbar-link {
+    color: #E5E7EB;
+}
+
+.title-subtext {
+    /* Style */
+    font-size: 18px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.image-placeholder-text {
+    background: #ffffff57;
+    color: #F9FAF8;
+}
+
+.section-header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.gallery-image-box {
+    border: solid #3882F6;
+    border-radius: 10px;
+}
+
+#section-quote {
+    background: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote-figure > blockquote {
+    /* Style */
+    font-style: italic;
+    font-weight: lighter; 
+    font-size: 36px;
+}
+
+.quote-figure > figcaption {
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.banner-box {
+    background: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.banner-button > button {
+    border: solid #F9FAF8 1px;
+}
+
+#page-footer {
+    background: #1F2937;
+    color: #E5E7EB;
+}
+
+/**--------------------------------------------
+ *               Layout Rules
+ *---------------------------------------------**/
+
+/**----------------------
+ *    Global
+ *------------------------**/
+
+body {
+    /* Layout */
+    margin: 0;
+}
+
+button {
+    /* Layout */
+    padding: 7px 23px;
+}
+
+/**----------------------
+ *    Header
+ *------------------------**/
 
 #page-header {
 
     /* Layout */
     padding: 0 75px 75px 75px;
-
-    /* Style */
-    background: #1F2937;
-    color: #F9FAF8;
 }
-
-/* - Navbar - */
 
 /* Navbar flex layout options */
 #header-navbar {
@@ -76,19 +160,16 @@ button {
 .navbar-link {
     /* Layout */
     display: block; /* all navbar links should be block elements */
-
-    /* Style */
-    color: #E5E7EB;
     text-decoration: none;   
 }
 
 .navbar-link,
 #header-banner > * {
+    /* Layout */
     /* links in navbar should also have some padding. This should also be applied to children of
     #header-banner so that everything falls inline. */
     padding: 20px;
 }
-
 /* - Banner - */
 
 
@@ -103,7 +184,6 @@ button {
 
 /* Placeholder image options */
 #header-banner .image-placeholder-text {
-    /* Layout */
     height: 100%;
     width: 100%;
     margin: 0;
@@ -111,23 +191,14 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* Style */
-    background-color: rgba(255, 255, 255, 0.4);
 }
 
-/* - Information - */
-/* --------------- */
+/**----------------------
+ *    Information Section
+ *------------------------**/
 
 #section-information {
-
-    /* Layout */
     text-align: center;
-
-    /* Style */
-    background: #ffffff;
-    color: #1F2937;
-    
 }
 
 #section-information > * {
@@ -155,114 +226,75 @@ button {
 .gallery-image-box {
     width: 150px;
     height: 150px;
-    
-    /* Style */
-    border: solid #3882F6;
-    border-radius: 10px;
 }
 
-/* ---  Quote  --- */
-/* --------------- */
+/**----------------------
+ *    Quote Section
+ *------------------------**/
 
 #section-quote {
-
-    /* Layout */
     padding: 80px 200px;
-
-    /* Style */
-    background: #E5E7EB;
-    color: #1F2937;
 }
 
 .quote-figure {
-    /* Layout */
     margin: 0;
     padding: 0;
 }
 
 .quote-figure > blockquote {
-    /* Layout */
     margin: 0;
     text-align: left;
-    
-    /* Style */
-    font-style: italic;
-    font-weight: lighter; 
 }
 
 .quote-figure > figcaption {
-    /* Layout */
     text-align: right;
-    
-    /* Style */
-    font-weight: 900;
 }
 
-/* ---  Sign up  --- */
-/* ----------------- */
+/**----------------------
+ *    Sign Up Section
+ *------------------------**/
 
 #section-sign-up {
-    /* Layout */
     display: flex;
 }
 
 #section-sign-up > * {
-    /* Layout */
     margin: 70px 150px;
 }
 
 .banner-box {
-
-    /* Layout */
     flex: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 80px;
-
-    /* Style */
-    background: #3882F6;
-    color: #ffffff;
-    border-radius: 10px;
 }
 
 .banner-box > .banner-text {
-    /* Layout */
     flex: 6;
     margin: 0 20px;
 }
 
 .banner-text > * {
-    /* Layout */
     margin: 0;
 }
 
 .banner-box > .banner-button {
-    /* Layout */
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: right;
     text-wrap: nowrap;
-    
     margin: 0 20px;
 }
 
-.banner-button > button {
-    border: solid #F9FAF8 1px
-}
-
-/* ---  Footer   --- */
-/* ----------------- */
+/**----------------------
+ *    Footer
+ *------------------------**/
 
 #page-footer {
-    /* Style */
-    background: #1F2937;
-    color: #ffffff;
-    height: 80px;
-    
-    /* Layout */
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
