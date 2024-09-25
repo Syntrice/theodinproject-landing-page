@@ -102,13 +102,49 @@ body {
     background-color: rgba(255, 255, 255, 0.4);
 }
 
-/* Main */
+/* - Information - */
+/* --------------- */
 
 #section-information {
+
+    /* Layout */
+    text-align: center;
+    height: 350px;
 
     /* Style */
     background: #ffffff;
     color: #1F2937;
+    
+}
+
+#section-information > * {
+    margin: 40px
+}
+
+.gallery-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.gallery-list > li {
+    flex: 0;
+}
+
+.gallery-figure {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-image-box {
+    width: 150px;
+    height: 150px;
+    
+    /* Style */
+    border: solid #3882F6;
+    border-radius: 10%;
 }
 
 #section-quote {
